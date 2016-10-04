@@ -1,0 +1,26 @@
+
+input.input-primary,
+textarea.textarea-primary {
+	background-color: #fff!important;
+	border: 1px solid #cfcdcd!important;
+	height: 36px!important;
+	margin-top: 10px!important;
+	padding-left: 5px!important;
+	box-shadow: 0.5px -0.5px 0px 0px rgba(0,0,0,0.16),0 0px 5px 0px rgba(0,0,0,0.12)!important;
+}
+
+p.label {
+	position: absolute;
+	top: -25px;
+	font-size: 0.8rem!important;
+	color: $color-secondary!important;
+}
+
+label { color: $color-secondary!important; }
+
+//Hide imput file
+.file-path-wrapper {
+	position: relative;
+	z-index: -1;
+	height: 0px;
+}
