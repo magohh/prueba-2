@@ -782,4 +782,10 @@ nav ul a span.badge {
 
 .parallax-container {height: 200px!important;}
 
+@media #{$medium-and-down} {
+    .parallax-container {height: 150px!important;}
+  }
+@media #{$small-and-down} {
+    .parallax-container {height: 100px!important;}
+  }
 

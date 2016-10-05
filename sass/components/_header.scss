@@ -1,4 +1,4 @@
-header {
+/*header {
 	position: fixed;
     z-index: 5;
     width: 100%;
@@ -22,4 +22,11 @@ header {
     }
 }
 
+body > #SectionInitial.container { padding-top: 110px; }*/
+header{
+	position: fixed;
+	z-index: 101;
+	width: 100%;
+	background-color: #fff;
+}
 body > #SectionInitial.container { padding-top: 110px; }

@@ -1,6 +1,7 @@
 nav {
   color: $navbar-font-color;
   @extend .z-depth-1;
+  box-shadow: none!important;
   background-color: $color-light!important;
   width: 100%;
   height: $navbar-height-mobile;
@@ -29,7 +30,7 @@ nav {
 
   // Collapse button
   .button-collapse {
-    float: left;
+    float:right!important;
     position: relative;
     z-index: 1;
     height: $navbar-height-mobile;

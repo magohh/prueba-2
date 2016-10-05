@@ -66,6 +66,25 @@
     @extend .z-depth-1-half;
   }
 }
+header{
+  .btn {
+  text-decoration: none;
+  color: $color-primary!important;
+  background-color: transparent!important;
+  text-align: center;
+  letter-spacing: .5px;
+  @extend .z-depth-1;
+  transition: .2s ease-out;
+  cursor: pointer;
+  box-shadow: none!important;
+
+  &:hover {
+    background-color: $color-primary!important;
+    color: $color-light!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  }
+}
+}
 .btn-empty:hover{
   background-color: $color-light!important;
   color: $color-dark!important;

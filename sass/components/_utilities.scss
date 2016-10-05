@@ -52,10 +52,12 @@
 .padding-top-bottom--xxlarge { padding-bottom: ( $padding-base*6 );  padding-top: ($padding-base*6);  }
 
 //Margin
+.margin-auto{margin:auto;}
 .margin-right { margin-right: $margin-base; }
 
 .margin-top--xsmall { margin-top: ($margin-base/4)!important; }
 .margin-top--small { margin-top: ($margin-base/2)!important; }
+.margin-top--large { margin-top: ( $margin-base*2 ); }
 
 .no-margin-bottom { margin-bottom: 0px!important; }
 .margin-bottom--xxsmall { margin-bottom: ($margin-base/6); }
@@ -74,12 +76,17 @@
 .margin-top-bottom--xlarge { margin-bottom: ( $margin-base*4 ); margin-top: ( $margin-base*4 ); }
 .margin-top-bottom--xxlarge { margin-bottom: ( $margin-base*6 );margin-top: ( $margin-base*6 ); }
 
-.margin-top--media{margin-top:.5rem!important;}
+.margin-top--media{margin-top:1rem!important;}
 
 @media (max-width : 600px){
-  .margin-top--media{margin-top:7.5rem!important;}
+  .margin-top--media{margin-top:1rem!important;}
+  .margin-top--small--media { margin-top: ($margin-base/2)!important; }
 }
 
+@media #{$small-and-down} {
+    .margin-top--large--media { margin-top: ( $margin-base*2 ); }
+    .margin-bottom--large--media { margin-bottom: ( $margin-base*2 ); }
+  }
 
 //Font-size
 
@@ -97,6 +104,9 @@
 
 .middle { vertical-align: middle; }
 
+@media #{$small-and-down} {
+    .center-align--media{text-align: center;}
+  }
 //font-style
 .italic { font-style: italic; }
 
