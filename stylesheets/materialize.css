@@ -9751,150 +9751,122 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-top: 1rem !important;
 }
 
-@media (max-width: 600px) {
-  /* line 82, ../sass/components/_utilities.scss */
-  .margin-top--media {
-    margin-top: 1rem !important;
-  }
-
-  /* line 83, ../sass/components/_utilities.scss */
-  .margin-top--small--media {
-    margin-top: 10px !important;
-  }
-}
-@media only screen and (max-width: 600px) {
-  /* line 87, ../sass/components/_utilities.scss */
-  .margin-top--large--media {
-    margin-top: 40px;
-  }
-
-  /* line 88, ../sass/components/_utilities.scss */
-  .margin-bottom--large--media {
-    margin-bottom: 40px;
-  }
-}
-/* line 93, ../sass/components/_utilities.scss */
+/* line 83, ../sass/components/_utilities.scss */
 .font-size--10 {
   font-size: 10px !important;
 }
 
-/* line 94, ../sass/components/_utilities.scss */
+/* line 84, ../sass/components/_utilities.scss */
 .font-size--20 {
   font-size: 20px !important;
 }
 
-/* line 95, ../sass/components/_utilities.scss */
+/* line 85, ../sass/components/_utilities.scss */
 .font-size--24 {
   font-size: 24px;
 }
 
-/* line 96, ../sass/components/_utilities.scss */
+/* line 86, ../sass/components/_utilities.scss */
 .font-size--30 {
   font-size: 30px !important;
 }
 
-/* line 98, ../sass/components/_utilities.scss */
+/* line 88, ../sass/components/_utilities.scss */
 .font-weight--300 {
   font-weight: 300 !important;
 }
 
-/* line 102, ../sass/components/_utilities.scss */
+/* line 92, ../sass/components/_utilities.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 103, ../sass/components/_utilities.scss */
+/* line 93, ../sass/components/_utilities.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 105, ../sass/components/_utilities.scss */
+/* line 95, ../sass/components/_utilities.scss */
 .middle {
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 600px) {
-  /* line 108, ../sass/components/_utilities.scss */
-  .center-align--media {
-    text-align: center;
-  }
-}
-/* line 111, ../sass/components/_utilities.scss */
+/* line 99, ../sass/components/_utilities.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 115, ../sass/components/_utilities.scss */
+/* line 103, ../sass/components/_utilities.scss */
 .min-width--120 {
   min-width: 120px;
 }
 
-/* line 116, ../sass/components/_utilities.scss */
+/* line 104, ../sass/components/_utilities.scss */
 .width--45 {
   width: 45px;
 }
 
-/* line 117, ../sass/components/_utilities.scss */
+/* line 105, ../sass/components/_utilities.scss */
 .width--100 {
   width: 100%;
 }
 
-/* line 119, ../sass/components/_utilities.scss */
+/* line 107, ../sass/components/_utilities.scss */
 .height--1000 {
   height: 1000px;
 }
 
-/* line 123, ../sass/components/_utilities.scss */
+/* line 111, ../sass/components/_utilities.scss */
 .absolute {
   position: absolute;
 }
 
-/* line 124, ../sass/components/_utilities.scss */
+/* line 112, ../sass/components/_utilities.scss */
 .relative {
   position: relative;
 }
 
-/* line 126, ../sass/components/_utilities.scss */
+/* line 114, ../sass/components/_utilities.scss */
 .top-0 {
   top: 0px;
 }
 
-/* line 127, ../sass/components/_utilities.scss */
+/* line 115, ../sass/components/_utilities.scss */
 .bottom-0 {
   bottom: 0px;
 }
 
-/* line 128, ../sass/components/_utilities.scss */
+/* line 116, ../sass/components/_utilities.scss */
 .left-0 {
   left: 0px;
 }
 
-/* line 129, ../sass/components/_utilities.scss */
+/* line 117, ../sass/components/_utilities.scss */
 .right-0 {
   right: 0px;
 }
 
-/* line 130, ../sass/components/_utilities.scss */
+/* line 118, ../sass/components/_utilities.scss */
 .right-50p {
   right: 49.70%;
 }
 
-/* line 133, ../sass/components/_utilities.scss */
+/* line 121, ../sass/components/_utilities.scss */
 .z-index-1 {
   z-index: 1;
 }
 
-/* line 134, ../sass/components/_utilities.scss */
+/* line 122, ../sass/components/_utilities.scss */
 .z-index-2 {
   z-index: 2;
 }
 
-/* line 138, ../sass/components/_utilities.scss */
+/* line 126, ../sass/components/_utilities.scss */
 .cursor-pointer {
   cursor: pointer;
 }
 
-/* line 141, ../sass/components/_utilities.scss */
+/* line 129, ../sass/components/_utilities.scss */
 .center-full {
   position: absolute;
   top: 50%;
@@ -9905,7 +9877,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   transform: translate(-50%, -50%);
 }
 
-/* line 151, ../sass/components/_utilities.scss */
+/* line 139, ../sass/components/_utilities.scss */
 li.parsley-custom-error-message {
   top: 5em;
   position: absolute;
@@ -9972,7 +9944,7 @@ body > #SectionInitial.container { padding-top: 110px; }*/
 /* line 26, ../sass/components/_header.scss */
 header {
   position: fixed;
-  z-index: 101;
+  z-index: 100;
   width: 100%;
   background-color: #fff;
 }
