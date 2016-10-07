@@ -77,6 +77,8 @@ header{
   transition: .2s ease-out;
   cursor: pointer;
   box-shadow: none!important;
+  padding: $button-padding--1;
+
 
   &:hover {
     background-color: $color-primary!important;
