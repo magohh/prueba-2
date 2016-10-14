@@ -146,7 +146,12 @@ textarea.materialize-textarea {
     cursor: text;
     transition: .2s ease-out;
   }
-
+  @media#{$small-and-down}{
+  label.active {
+      font-size: 1rem!important;
+      transform: translateY(-140%);
+    } 
+  }
   label.active {
     font-size: $label-font-size;
     transform: translateY(-140%);

@@ -73,7 +73,9 @@ h2 {
   text-transform: uppercase!important;
   font-style: italic;
 }
-
+  @media(max-width: 1165px) {
+    h2{font-size: 35px!important;}
+  }
 
 h3 {
   color: $color-primary!important;

@@ -2,6 +2,7 @@
 
 html {
  box-sizing: border-box;
+ background-color: #ffffff;
 }
 *, *:before, *:after {
  box-sizing: inherit;
@@ -646,6 +647,10 @@ nav ul a span.badge {
     }
 }
 
+//@media(max-width: 1170px){
+ // .video-container{margin-left: 3em;}
+//}
+
 // Progress Bar
 .progress {
     position: relative;
@@ -780,12 +785,12 @@ nav ul a span.badge {
   padding: 0 !important;
 }
 
-.parallax-container {height: 200px!important;}
+.parallax-container {height: 350px!important;}
 
 @media #{$medium-and-down} {
-    .parallax-container {height: 150px!important;}
+    .parallax-container {height: 300px!important;}
   }
 @media #{$small-and-down} {
-    .parallax-container {height: 100px!important;}
+    .parallax-container {height: 180px!important;}
   }
 

@@ -88,10 +88,21 @@ header{
   }
 }
 }
+@media #{$small-and-down} {
+    .btn-padding-movil{ padding: 0 1rem!important; }
+  }
+
+@media#{$small-and-down}{
+  form .btn{
+      padding:  0rem 5rem;
+      font-size: 1.3em;
+      }
+}
 .btn-empty:hover{
   background-color: $color-light!important;
   color: $color-dark!important;
 }
+
 // Floating button
 .btn-floating {
   display: inline-block;
